@@ -1,0 +1,151 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.light-dark{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.intro-container{
+    animation: rotate 1s linear infinite;
+    width: 300px;
+    margin: auto;
+    /* display: none; */
+    margin-top: 18%;
+    rotate: -45deg;
+}
+
+.intro-container h1{
+   font-family: sans-serif; 
+   font-size: 3rem;
+}
+
+
+
+.container{
+    width: 50%;
+    padding-top: 10%;
+    margin: auto;
+    display: none;
+}
+
+.container h1{
+    display: none;
+    color: lawngreen;
+}
+
+table{
+    width: 350px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 5rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.box:first-child,
+.box:nth-child(2){
+    border-right: 2px solid blue;
+}
+
+.box:nth-child(2),
+.box:nth-child(3){
+    border-left: 2px solid blue;
+}
+
+
+.first-row .box:first-child,
+.first-row .box:nth-child(2),
+.first-row .box:nth-child(3){
+    border-bottom: 2px solid blue;
+}
+
+.second-row .box:first-child,
+.second-row .box:nth-child(2),
+.second-row .box:nth-child(3){
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+.third-row .box:first-child,
+.third-row .box:nth-child(2),
+.third-row .box:nth-child(3){
+    border-top: 2px solid blue;
+}
+
+input{
+    font-size: 1.5rem;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    margin-top: 20%;
+    border: 2px solid blue;
+    background-color: transparent;
+}
+
+.input{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+#play-again{
+    display: none;
+}
+
+.set-container{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15%;
+    display: none;
+}
+
+.set-container ul{
+    width: 100%;
+}
+
+.set-container li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.light{
+    width: 20px;
+    height: 20px;
+    background-color: darkblue;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+
+.illuminate{
+    background-color: blue;
+    border: 2px solid lightblue;
+} 
+
+.btn{
+    color: blue;
+}
+
+
+
+
+
+
